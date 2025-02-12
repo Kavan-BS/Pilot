@@ -1,0 +1,14 @@
+This document conatins commands used to access Git
+
+- setup
+  -- check if git is installed on the system : git --version
+  -- Check the configured uname and email : git config --global --list
+  -- add user name and email to the configuration:
+        git config --globak user.name = "<user_name>"
+        git config --global user.email = "<user_email>"
+
+- initialize
+  --crate local repository on our system : git initialize
+  --fetch the status of the repository (current branch,commit history and pending changes)
+
+  // fill through out the course completion //
