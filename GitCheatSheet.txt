@@ -12,3 +12,19 @@ This document conatins commands used to access Git
   --fetch the status of the repository (current branch,commit history and pending changes)
 
   // fill through out the course completion //
+
+
+
+- Tags
+  Tags are used to indicate new releases to the consumer/end user, this will be shown in releases section on github homepage.
+  Two type: ANNOTATED TAGS AND LIGHTWEIGHT TAGS
+  -- check existing tags:
+        git tag
+  -- create a tag
+        git tag -a <tag_name_Eg_v1.0> -m "<_comment_>"
+        -a represents annotated.
+  --show details of any tag
+        git show <tag_name>
+*Note:Push the new/ changed tags every time to the remote repository
+        git push origin <tag_name>
+
