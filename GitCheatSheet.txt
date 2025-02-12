@@ -28,3 +28,8 @@ This document conatins commands used to access Git
 *Note:Push the new/ changed tags every time to the remote repository
         git push origin <tag_name>
 
+- Clone a Project
+  DOwnload entire repositoryh to your local machine
+  -- git clone <_URL_>
+  
+
