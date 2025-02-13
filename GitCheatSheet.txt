@@ -31,5 +31,18 @@ This document conatins commands used to access Git
 - Clone a Project
   DOwnload entire repositoryh to your local machine
   -- git clone <_URL_>
-  
+
+-Git branch
+  Bracnches are created to isolate the main (code base used for releases or production) with other development tasks.
+  --To create a new branch and switch to it:
+        git checkout -b <Branch_Name> or git switch -c <branch_name>
+  -- To list all the branches in the repo:
+        git branch
+  -- To switch to different branch :
+        git checkout main or git switch main
+  -- Delete a branch
+        git branch -d <branch_Name>
+  -- to push the new branch to the remote repository 
+      git push origin <new_branch_name>
+  g
 
