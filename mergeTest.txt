@@ -1,0 +1,1 @@
+Thuis file was created to test the merge option in git.
